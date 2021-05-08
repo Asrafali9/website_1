@@ -569,8 +569,21 @@ li {
     height: 100vh;
     text-align: center;
     color: white;
-    width: 100vw;
-    background-color: darkslategrey;
+    width: 100%;
+    background-color: rgb(43, 78, 78);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 130px;
+    
+  }
+
+  .nav-link{
+    font-size: 1.6rem;
   }
 
   .services .services-item:nth-child(2) {
