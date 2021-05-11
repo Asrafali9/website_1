@@ -11,9 +11,9 @@
  const scrollArrow=document.querySelector(".scroll-top");
  const arwDsply=()=>{
      if (document.documentElement.scrollTop>30||document.body.scrollTop>30) {
-         scrollArrow.style.opacity=1;
+         scrollArrow.style.display="block";
      } else {
-        scrollArrow.style.opacity=0;
+        scrollArrow.style.display="none";
          
      }
  }
